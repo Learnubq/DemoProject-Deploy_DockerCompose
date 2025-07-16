@@ -52,13 +52,13 @@ docker push 470633809269.dkr.ecr.eu-west-1.amazonaws.com/my-app:1.0
 
 <img width="1161" height="243" alt="Dockercomp6" src="https://github.com/user-attachments/assets/1fb2e5ec-9ef8-4f0e-8940-3243899e44b5" />
 
-<img width="547" height="135" alt="Dockercomp7" src="https://github.com/user-attachments/assets/d6b91131-25b1-447f-9345-2f0657b39926" />
-
 
 9. **After confirming I had added the Docker Compose file to the project directory I then started the my-app, MongoDB and MongoExpress containers using Docker Compose:**
 
 ```bash
 docker compose --file docker_compose_mongo.yaml up -d
 ```
+
+<img width="547" height="135" alt="Dockercomp7" src="https://github.com/user-attachments/assets/d6b91131-25b1-447f-9345-2f0657b39926" />
 
 10. **I then checked the MongoDB database and MongoExpress UI were running. I confirmed the "user-account" database was lost as I recreated the MongoDB container. I would be able to persist the database data using volumes if I wanted the database to remain each time I recreated the MongoDB Container.**
