@@ -6,7 +6,7 @@ This demo shows the process of deploying a Docker application on a server using 
 
 1. **Within the Docker Compose file added a new container for the "my-app" application. The file already had the MongoDB and MongoExpress containers added**
 
-2. **Within that added a new Image and its name - the Image I pushed to the AWS ECR registry**
+2. **Within that I added a new Image and its name - the Image I pushed to the AWS ECR registry**
 
 3. **I executed a Docker login on the development server before I could interact with AWS ECR:**
 
